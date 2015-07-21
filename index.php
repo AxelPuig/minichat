@@ -14,11 +14,11 @@
 				<legend>Envoyez un message</legend>
 				<div class="form-group form-group-sm">
 					<label for="pseudo">Pseudo : </label>
-					<input id="pseudo" type="text" class="form-control" placeholder="Entrez votre pseudo">
+					<input name="pseudo" id="pseudo" type="text" class="form-control" placeholder="Entrez votre pseudo">
 				</div><br>
 				<div class="form-group form-group-sm">
 					<label for="message">Message : </label>
-					<input id="message" type="text" class="form-control" placeholder="Entrez un message">
+					<input name="message" id="message" type="text" class="form-control" placeholder="Entrez un message">
 				</div><br>
 				<div class="form-group form-group-sm">
 					<button class="pull-right btn btn-default" type="submit">Envoyer !</button>
