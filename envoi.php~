@@ -19,7 +19,7 @@ session_start();
 try {
 	/*          CONNEXION A LA BASE DE DONNEES (à modifier si erreur)
 	===============================================================================*/
-	$bdd = new PDO('mysql:host=localhost;dbname=minichat;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=chat-php;charset=utf8', 'root', '');
 }
 
 catch (Exception $e) {
@@ -38,3 +38,4 @@ if(isset($_POST['pseudo']) and isset($_POST['message'])) // On vérifie que les 
 
 	</body>
 </html>
+
