@@ -9,6 +9,7 @@ session_start();
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<meta http-equiv="refresh" content="0;URL=index.php">
+		<style>.form-group, form{margin: 10px;}</style>
 	</head>
 
 	<body class="container">
